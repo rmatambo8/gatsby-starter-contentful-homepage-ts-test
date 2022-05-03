@@ -7,7 +7,7 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "gatsby-provision": "gatsby-provision-contentful --contentful-data-path='.scripts/data.json'",
+    "gatsby-provision": "gatsby-provision-contentful --contentful-data-path='scripts/data.json'",
     "setup": "node ./scripts/setup.js",
     "export-content": "contentful space export --space-id=$SPACE_ID --management-token=$MANAGEMENT_TOKEN --export-dir=scripts --content-file=data.json"
   },
